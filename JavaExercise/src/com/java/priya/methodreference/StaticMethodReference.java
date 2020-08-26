@@ -33,6 +33,10 @@ public final class StaticMethodReference {
 			
 			CompareInterface  compareInterface = StaticMethodReference::compare;
 			empList.sort(compareInterface::compare);
+			
+			/*bikeBrands.stream()
+  .map(Bicycle::new)
+  .toArray(Bicycle[]::new);*/
 
 	}
 

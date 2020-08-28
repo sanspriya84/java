@@ -5,6 +5,10 @@ package com.java.priya.core;
 
 public class MethodOverloading {
 
+	public static void main(String args[]) {
+		Animal animal = new Animal();
+		animal.run();
+	}
 }
 
 class Animal {

@@ -44,9 +44,9 @@ public class ReduceSample001 {
 	     e2.setEmpNo(2);
 	     e2.setSalary(new BigDecimal(300));
 	     
-	     List<Employee> empList = Arrays.asList(e1,e2);
+	  /*   List<Employee> empList = Arrays.asList(e1,e2);
 	     empList.stream().reduce( new BigDecimal(4000),
-	    		   (e1,e2) -> BigDecimal::add);
+	    		   (e1,e2) -> BigDecimal::add);*/
 			
 	}
 	

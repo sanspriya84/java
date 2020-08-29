@@ -3,7 +3,7 @@
 */
 package com.java.priya.core;
 
-public class JavaCoreStatic {
+public class JavaCoreStaticOverriding {
 
 	public static void main(String args[]) {
 		Furniture furniture = new Furniture();

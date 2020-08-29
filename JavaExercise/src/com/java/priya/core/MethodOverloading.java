@@ -3,6 +3,8 @@
 */
 package com.java.priya.core;
 
+import java.io.FileNotFoundException;
+
 public class MethodOverloading {
 
 	public static void main(String args[]) {
@@ -27,7 +29,7 @@ class Animal {
 	 * System.out.println(" animal runs with the speed " + runSpeed); }
 	 */
 
-	public void run(int runSpeed, String direction) throws Exception{
+	public void run(int runSpeed, String direction) throws FileNotFoundException{
 		System.out.println(" animal runs with the speed " + runSpeed + " towards " + direction);
 	}
 	
